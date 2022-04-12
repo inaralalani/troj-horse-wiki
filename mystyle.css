@@ -1,13 +1,42 @@
 body {
-  background-color: lightblue;
+  background-color: #eeebe2;
+  font-family: Martel;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+h1, h2, h3, h4, h5 {
+  color: #443ae7;
+  font-family: 'Abril Fatface';
+  letter-spacing: 1px
+}
+
+.blue {
+  color: #443ae7;
 }
 
 p {
-  font-family: abril;
-  font-size: 40px;
+  /* font-family: 'Abril Fatface'; */
+  /* font-size: 40px; */
+}
+
+.navbar-logo {
+  width: 15rem;
+}
+
+.serif {
+  font-family: 'Abril Fatface';
+  letter-spacing: 1px
+}
+
+.regular {
+  font-family: 'Martel';
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #e2dece;
+  border: none;
+
 }
