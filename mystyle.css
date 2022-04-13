@@ -40,3 +40,28 @@ p {
   border: none;
 
 }
+
+.btn-group button {
+  background-color: #443ae7;
+  border: 1px solid white;
+  color: white; /* White text */
+  padding: 10px 24px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #5a51ea;
+}
