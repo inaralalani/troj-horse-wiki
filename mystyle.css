@@ -89,5 +89,7 @@ p {
 .portrait {
     max-width:20%;
     max-height:20%;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
 }
