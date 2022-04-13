@@ -85,3 +85,9 @@ p {
     width: 30%;
     float:left;
 }
+
+.portrait {
+    max-width:20%;
+    max-height:20%;
+    width: 30%;
+}
