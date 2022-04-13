@@ -78,3 +78,10 @@ p {
   margin-right: auto;
   width: 50%;
 }
+
+.profile {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 30%;
+}
