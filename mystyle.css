@@ -54,6 +54,12 @@ p {
   border-right: none; /* Prevent double borders */
 }
 
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
 /* Clear floats (clearfix hack) */
 .btn-group:after {
   content: "";
