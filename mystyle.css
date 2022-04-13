@@ -92,3 +92,6 @@ p {
   margin-right: auto;
   width: 30%;
 }
+
+.filter-blue{
+       filter: invert(38%) sepia(100%) saturate(7496%) hue-rotate(246deg) brightness(95%) contrast(91%);
