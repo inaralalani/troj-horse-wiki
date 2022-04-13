@@ -71,3 +71,10 @@ p {
 .btn-group button:hover {
   background-color: #5a51ea;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
